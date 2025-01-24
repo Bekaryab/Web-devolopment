@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Event Invite</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #f9f9f9;
+                color: #333;
+            }
+            .invite-container {
+                width: 80%;
+                max-width: 600px;
+                margin: 20px auto;
+                background: white;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            .header {
+                background: url('https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png') center/cover;
+                color: white;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            .header h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+            .details {
+                padding: 20px;
+                text-align: center;
+            }
+            .details p {
+                margin: 10px 0;
+            }
+            .rsvp {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+            .rsvp button {
+                padding: 10px 20px;
+                background: #ff5722;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+            .rsvp button:hover {
+                background: #e64a19;
+            }
+            .footer {
+                background: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="invite-container">
+            <div class="header">
+                <h1>Summer Beach Party 2025</h1>
+            </div>
+            <div class="details">
+                <p><strong>Date:</strong> July 15, 2025</p>
+                <p><strong>Time:</strong> 3:00 PM - 9:00 PM</p>
+                <p><strong>Location:</strong> Sunset Beach, Hawaii</p>
+                <p><strong>Dress Code:</strong> Tropical Casual</p>
+            </div>
+            <div class="rsvp">
+                <button>RSVP Now</button>
+            </div>
+            <div class="footer">
+                Hosted by John and Jane Doe. Contact us at events@example.com
+            </div>
+        </div>
+    </body>
+</html>
