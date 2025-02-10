@@ -10,4 +10,4 @@ describe("Raises x to power n", function() {
   it("5 in the power of 3 equals 125", function() {
     assert.equal(pow(5, 3), 125);
   });
-});
+}); 
